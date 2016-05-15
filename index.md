@@ -1,6 +1,6 @@
 ---
-title       : Coronary Heart Disease Risk Calculator
-subtitle    : 
+title       : Coronary Heart Disease (CHD)
+subtitle    : Risk Calculator
 author      : R. P. Ruiz
 job         : 
 framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
