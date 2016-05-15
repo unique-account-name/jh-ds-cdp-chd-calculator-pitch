@@ -33,7 +33,7 @@
         <slide class="title-slide segue nobackground">
   <hgroup class="auto-fadein">
     <h1>Coronary Heart Disease (CHD)</h1>
-    <h2>Risk Calculator</h2>
+    <h2>Interactive Risk Calculator</h2>
     <p>R. P. Ruiz<br/></p>
   </hgroup>
   <article></article>  
@@ -43,13 +43,20 @@
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
   <hgroup>
-    <h2>Slide 2: Read-And-Delete</h2>
+    <h2>Motivation: Why Build a CHD risk calculator?</h2>
   </hgroup>
   <article data-timings="">
     <ol>
-<li>Edit YAML front matter</li>
-<li>Write using R Markdown</li>
-<li>Use an empty line followed by three dashes to separate slides!</li>
+<li>Yearly physical: Cholesterol levels were higher than they should be</li>
+<li>Lack of easy to use, interactive heart health model</li>
+<li>Need to easily test &quot;what-if&quot; scenarios</li>
+</ol>
+
+<h2>Sources</h2>
+
+<ol>
+<li>&quot;Toy&quot; data subset referenced by Edx&#39;s and MIT&#39;s &quot;<a href="https://www.edx.org/course/analytics-edge-mitx-15-071x-2">The Analytics Edge</a>&quot; course</li>
+<li>Ultimate source of data is <a href="http://www.framinghamheartstudy.org/">Framingham heart study</a>.</li>
 </ol>
 
   </article>
@@ -58,10 +65,12 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 3</h2>
+    <h2>Example Output from source.R</h2>
   </hgroup>
   <article data-timings="">
-    <p>asdf asd fasdf asdf asdf--- .class #id </p>
+    <p>Shiny app calculates risk locally using javascript in the client (based on glm(...)  regression analysis in R), then requests server to update the risk comparison bar chart:</p>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
 
   </article>
   <!-- Presenter Notes -->
@@ -69,10 +78,17 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 4</h2>
+    <h2>Next Steps: Improving the CDH Risk Calculator</h2>
   </hgroup>
   <article data-timings="">
-    <p>asdf asd fasdf asdf asdf</p>
+    <p>The first working prototype of CDH Risk Calculator is novel and useful, but could use improvement:</p>
+
+<ol>
+<li>Add concrete references and links to definitive research on reducing risk of CDH</li>
+<li>Add interactions between calculator inputs and mitigating factors section: recommendations would be personalized according to user&#39;s health profile.</li>
+<li>Add automatic updating and comparison of &quot;before&quot; and &quot;after&quot; states - related to #2</li>
+<li>Build a more robust and accurate model based on full Framingham dataset, e.g., allow for inclusion of glucose and BMI coefficients.</li>
+</ol>
 
   </article>
   <!-- Presenter Notes -->
@@ -80,10 +96,12 @@
 
 <slide class="class" id="id" style="background:;">
   <hgroup>
-    <h2>Slide 5</h2>
+    <h2>Links</h2>
   </hgroup>
   <article data-timings="">
-    <p>asdf asd fasdf asdf asdf</p>
+    <p>Try out a working prototype of a CHD Risk Calculator <a href="https://rpruiz.shinyapps.io/CHDCalculator/">here</a>.</p>
+
+<p>App repo can be found <a href="https://github.com/unique-account-name/jh-ds-cdp-chd-calculator">here</a>.</p>
 
   </article>
   <!-- Presenter Notes -->
@@ -95,25 +113,25 @@
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title='Slide 2: Read-And-Delete'>
+        data-slide=1 title='Motivation: Why Build a CHD risk calculator?'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Slide 3'>
+        data-slide=2 title='Example Output from source.R'>
          2
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=3 title='Slide 4'>
+        data-slide=3 title='Next Steps: Improving the CDH Risk Calculator'>
          3
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Slide 5'>
+        data-slide=4 title='Links'>
          4
       </a>
     </li>
