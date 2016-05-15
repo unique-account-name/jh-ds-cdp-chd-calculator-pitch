@@ -34,7 +34,7 @@ Shiny app calculates risk locally using javascript in the client (based on glm(.
 
 ## Next Steps: Improving the CDH Risk Calculator
 
-The first working prototype of CDH Risk Calculator is novel and useful, but could use improvement:
+While the first working prototype of CDH Risk Calculator is novel and useful, end users would benefit from additional functionality:
 
 1. Add concrete references and links to definitive research on reducing risk of CDH
 2. Add interactions between calculator inputs and mitigating factors section: recommendations would be personalized according to user's health profile.
